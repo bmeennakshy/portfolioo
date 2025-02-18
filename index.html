@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="content">
+        <section class="first">
+            <div class="signature">
+                <a href="#">
+                    <img src="mylivesignature.png" alt="Your Signature">
+                </a>
+                <div class="name-description">
+                    <p>B Meennakshy</p>
+                    <p>2004</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="second">
+            <div class="content">
+                <a href="#" id="aboutMeLink">About Me</a>
+                <a href="#" id="contactMeLink">Contact Me</a>
+                <a href="#" id="myWorksLink">Works</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal (outside the .content) -->
+    <div id="aboutMeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About Me</h2>
+            <p>My name is B Meennakshy.</p>
+            <p>Currently studying as a Computer Science Engineering student .</p>
+            <p>Specializing in web design, branding and mobile apps however, I’m up for new challenges too</p>
+            
+        </div>
+    </div>
+    <div id="contactMeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Me</h2>
+            <div class="social-links">
+                <a href="mailto:bmeennakshy321@gmail.com" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/b_meennakshy" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/b-meennakshy-b941b3255/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- My Works Modal -->
+    <div id="myWorksModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>My Works</h2>
+            <p>Labour Management System</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
